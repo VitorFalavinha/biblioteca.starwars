@@ -25,8 +25,25 @@ h1#escolherletra {
     text-align: center;
 }
 div.content {
-    
+    display: flex;
+    padding: 40px;
+    padding-left: 60px;
+}
+div.content  img {
+    -webkit-filter: drop-shadow( 5px 5px 15px #ebcc43);
+    filter: drop-shadow(0px 0px 10px #eb4343);
+}
+div.texto{
+    transform: translate(35%, 20%);
+}
+h1.nome {
+    font-family: 'starwars';
+    color:#ebcc43 ;
+    letter-spacing: 2px;
 }
 p.description{
     border: none;
+    width: 400px;
+    transform: translate(0%, 0%);
+    color: white;
 }
