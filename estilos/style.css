@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: starwarsh;
+    src: url(../fonts/Starjhol.ttf);
+}
+@font-face {
+    
+    font-family: starwars;
+    src: url(../fonts/Strjmono.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    background-color: black;
+    max-height: 60px;
+}
+.container {
+    display: flex;
+    
+    align-items: center;
+
+}
+ul {
+    list-style-type: none;
+}
+ul > li > img {
+    padding-right: 150px;
+    padding-left: 100px;
+} 
+li {
+    color: #f1d768;
+    padding-right: 70px;
+    font-family: 'starwarsh';
+    font-size: 1.2em;
+    
+    
+}
+main {
+    height: 90vh;
+    background-image: url(../imagens/star_wars_main_cover.jpg);
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+
+}
+main h1, p {
+    width: 850px;
+    background-color: rgba(19, 18, 18, 0.548);
+    transform: translate(30% , 150px);
+    padding: 20px;
+    border-style: inset;
+    
+}
+main h1{
+    font-family: 'starwars';
+    color: #ebcc43;
+    letter-spacing: 2px;
+    text-shadow: 3px 3px 5px black;
+    border-bottom: none;
+    
+
+}
+main p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    text-shadow: 3px 3px 5px black;
+}
+main p#meio {
+    border-top: none;
+    border-bottom: none;
+
+}
+main p#final{
+    border-top: none;
+}
