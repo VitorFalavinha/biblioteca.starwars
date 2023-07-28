@@ -16,7 +16,8 @@
 }
 header {
     background-color: black;
-    max-height: 60px;
+    max-height: 67px;
+    
 }
 .container {
     display: flex;
@@ -28,7 +29,7 @@ ul {
     list-style-type: none;
 }
 ul > li > img {
-    padding-right: 150px;
+    padding-right: 110px;
     padding-left: 100px;
 } 
 li {
@@ -42,12 +43,18 @@ li {
 li a {
     text-decoration: none;
     color: #f1d768;
+    padding: 8px;
+    margin-top: -5px;
 }
+
 li a:hover {
     color: white;
 }
+li a#selected {
+    color: white;
+}
 main {
-    height: 90vh;
+    height: 89vh;
     background-image: url(../imagens/star_wars_main_cover.jpg);
     background-position: center center;
     display: flex;
