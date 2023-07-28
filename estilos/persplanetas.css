@@ -4,6 +4,10 @@
     margin: 0px;
     padding: 0px;
 }
+section {
+    background-color: rgba(0, 0, 0, 0.877);
+    height: 89vh;
+}
 ul#container {
     display: flex;
     flex-flow: row;
@@ -19,4 +23,10 @@ li.alfabeto {
 h1#escolherletra {
     border-bottom-style: inset;
     text-align: center;
+}
+div.content {
+    
+}
+p.description{
+    border: none;
 }
