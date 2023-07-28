@@ -4,9 +4,12 @@
     margin: 0px;
     padding: 0px;
 }
+body {
+    
+}
 section {
-    background-color: rgba(0, 0, 0, 0.877);
-    height: 89vh;
+    background-color: rgb(29, 29, 29);
+    
 }
 ul#container {
     display: flex;
@@ -26,16 +29,14 @@ h1#escolherletra {
 }
 div.content {
     display: flex;
-    padding: 40px;
-    padding-left: 60px;
+    padding-top: 30px;
+    
 }
 div.content  img {
     -webkit-filter: drop-shadow( 5px 5px 15px #ebcc43);
     filter: drop-shadow(0px 0px 10px #eb4343);
 }
-div.texto{
-    transform: translate(35%, 20%);
-}
+
 h1.nome {
     font-family: 'starwars';
     color:#ebcc43 ;
@@ -46,4 +47,8 @@ p.description{
     width: 400px;
     transform: translate(0%, 0%);
     color: white;
+    
 }
+ div#maul {
+    padding-left: ;
+ }
