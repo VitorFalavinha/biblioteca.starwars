@@ -32,12 +32,19 @@ ul > li > img {
     padding-left: 100px;
 } 
 li {
-    color: #f1d768;
+    
     padding-right: 70px;
     font-family: 'starwarsh';
     font-size: 1.2em;
     
     
+}
+li a {
+    text-decoration: none;
+    color: #f1d768;
+}
+li a:hover {
+    color: white;
 }
 main {
     height: 90vh;
