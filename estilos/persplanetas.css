@@ -4,11 +4,9 @@
     margin: 0px;
     padding: 0px;
 }
-body {
-    
-}
+/*MENU*/
 section {
-    background-color: rgb(29, 29, 29);
+    background-color: #1d1d1d;
     
 }
 ul#container {
@@ -20,21 +18,27 @@ ul#container {
 }
 li.alfabeto {
     color: white;
-    padding: 20px;
+    padding: 18px;
     padding-top: 0px;
 }
 h1#escolherletra {
     border-bottom-style: inset;
     text-align: center;
 }
+
+/* CORPO*/
 div.content {
     display: flex;
-    padding-top: 30px;
+    padding-top: 50px;
     
 }
 div.content  img {
     -webkit-filter: drop-shadow( 5px 5px 15px #ebcc43);
     filter: drop-shadow(0px 0px 10px #eb4343);
+}
+
+div.texto {
+    padding-top: 60px;
 }
 
 h1.nome {
@@ -47,8 +51,20 @@ p.description{
     width: 400px;
     transform: translate(0%, 0%);
     color: white;
+    background-color: #1d1d1d;
     
 }
  div#maul {
-    padding-left: ;
+    padding-left: 120px;
+    padding-top: 70px;
+ }
+
+ footer p#rodape {
+    background-color: black;
+    color: white;
+    transform: translate(0%,0%);
+    padding: 10px;
+    text-align: center;
+    border-style: none;
+    box-sizing: 100vw;
  }

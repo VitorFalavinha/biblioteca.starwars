@@ -61,22 +61,29 @@ main {
     flex-direction: column;
 
 }
-main > h1, p {
+ h1.intro {
     width: 850px;
-    background-color: rgba(19, 18, 18, 0.548);
+    background-color: #1312128c;
+    transform: translate(30% , 150px);
+    padding: 20px;
+    border: inset;
+    
+}
+ p.intro {
+    width: 850px;
+    background-color: #1312128c;
     transform: translate(30% , 150px);
     padding: 20px;
     border-style: inset;
     
 }
-main h1{
+main h1.intro{
     font-family: 'starwars';
     color: #ebcc43;
     letter-spacing: 2px;
     text-shadow: 3px 3px 5px black;
     border-bottom: none;
     
-
 }
 main p {
     color: white;
