@@ -27,6 +27,16 @@ h1#escolherletra {
 }
 
 /* CORPO*/
+div#voltar {
+    padding: 10px;
+    position: fixed;
+    right: 4%;
+    top: 85%;
+    
+    
+    
+}
+
 div.content {
     display: flex;
     padding-top: 50px;
