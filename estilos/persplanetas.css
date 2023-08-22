@@ -34,7 +34,7 @@ div.content {
 }
 div.content  img {
     -webkit-filter: drop-shadow( 5px 5px 15px #ebcc43);
-    filter: drop-shadow(0px 0px 10px #eb4343);
+    filter: drop-shadow(0px 0px 10px #df3737);
 }
 
 div.texto {
