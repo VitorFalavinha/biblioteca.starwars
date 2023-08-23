@@ -66,6 +66,12 @@ main {
     flex-direction: column;
 
 }
+
+video {
+    height: 89vh;
+    
+}
+
  h1.intro {
     width: 850px;
     background-color: #1312128c;
