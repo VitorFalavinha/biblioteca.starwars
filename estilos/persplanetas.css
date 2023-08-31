@@ -43,7 +43,7 @@ div#voltar {
 div.content {
     display: flex;
     padding-top: 50px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
     
 }
 div.content  img#red{
@@ -80,14 +80,17 @@ p.description{
  div#maul {
     padding-left: 210px;
     padding-top: 70px;
+    padding-bottom: 20px;
  }
 
  footer p#rodape {
     background-color: black;
-    color: white;
-    transform: translate(0%,0%);
+    color: #ebcc43;
+    width: 100vw;
     padding: 10px;
     text-align: center;
     border-style: none;
-    box-sizing: 100vw;
+    font-size: 1em ;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
  }
