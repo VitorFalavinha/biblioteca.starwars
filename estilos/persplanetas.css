@@ -31,10 +31,7 @@ h1#escolherletra {
 
 /* CORPO*/
 
-main {
-    height: 80vh;
-    width: 95vw;
-}
+
 div#voltar {
     padding: 10px;
     position: fixed;
