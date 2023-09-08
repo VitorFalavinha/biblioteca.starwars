@@ -61,6 +61,7 @@ li a#selected {
 main {
     height: 89vh;
     background-image: url(../imagens/star_wars_main_cover.jpg);
+    background-size: cover;
     background-position: center center;
     display: flex;
     flex-direction: column;
