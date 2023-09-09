@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 @font-face {
     font-family: starwarsh;
     src: url(../fonts/Starjhol.ttf);
@@ -23,7 +22,7 @@
         
     }
     img#logobig{
-        padding-left: 40px;
+        padding-left: 25px;
     }
     .material-icons {
        color: #f1d768;
@@ -33,8 +32,7 @@
        transform: translateY(-40%);
        transform: scale(170%);
       }
-    ul.container{
-        background-color: #000000;
+    i#burger{
         
     }
 
@@ -50,21 +48,26 @@
     }
     ul {
         list-style-type: none;
-        
+
     }
     ul > li > img {
-      
+        padding-right: ;
+        padding-left: ;
     } 
     li {
         
+        padding-right: ;
         font-family: 'starwarsh';
         font-size: 2em ;
         
+        
     }
     li a {
+        background-color: #000000;
         text-decoration: none;
         color: #f1d768;
-          
+        
+        
     }
     a.contact:hover {
         filter: grayscale(100%);
@@ -135,116 +138,5 @@
         border-top: none;
     }
 
-
-}
-@media screen and (min-width: 992px) {
-
-* {
-    margin: 0px;
-    padding: 0px;
-}
-header {
-    background-color: black;
-    max-height: 67px;
-    
-}
-img#logobig{
-    display: none;
-}
-.container {
-    display: flex;
-    align-items: center;
-}
-ul {
-    list-style-type: none;
-    
-}
-ul > li > img {
-    padding-right: 100px;
-    padding-left: 100px;
-} 
-li {
-    
-    padding-right: 70px;
-    font-family: 'starwarsh';
-    font-size: 1.2em; 
-}
-li#logo {
-    display: flex;
-}
-li a {
-    text-decoration: none;
-    color: #f1d768;
-    padding: 8px;
-    margin-top: -5px;
-}
-a.contact:hover {
-    filter: grayscale(100%);
-    /*drop-shadow(0px 0px 10px #ffffff);*/
-    
-}
-
-li a:hover {
-    color: white;
-}
-li a#selected {
-    color: white;
-}
-main {
-    height: 89vh;
-    background-image: url(../imagens/star_wars_main_cover.jpg);
-    background-size: cover;
-    background-position: center center;
-    display: flex;
-    flex-direction: column;
-
-}
-
-video {
-    height: 80vh;
-    padding-top: 20px;
-    filter: drop-shadow(0px 0px 20px #000000);
-    
-    
-}
-
- h1.intro {
-    width: 850px;
-    background-color: #1312128c;
-    transform: translate(30% , 150px);
-    padding: 20px;
-    border: inset;
-    
-}
- p.intro {
-    width: 850px;
-    background-color: #1312128c;
-    transform: translate(30% , 150px);
-    padding: 20px;
-    border-style: inset;
-    
-}
-main h1.intro{
-    font-family: 'starwars';
-    color: #ebcc43;
-    letter-spacing: 2px;
-    text-shadow: 3px 3px 5px black;
-    border-bottom: none;
-    
-}
-main p {
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2em;
-    text-shadow: 3px 3px 5px black;
-}
-main p#meio {
-    border-top: none;
-    border-bottom: none;
-
-}
-main p#final{
-    border-top: none;
-}
 
 }

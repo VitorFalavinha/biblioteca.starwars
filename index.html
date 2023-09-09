@@ -6,12 +6,24 @@
     <title>Biblioteca Star Wars</title>
     <link rel="shortcut icon" href="imagens/favicon.ico.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilos/style.css">
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+   
 
 </head>
 <body>
     <header >
-        <ul class="container">
-            <li><img src="imagens/star_wars_logo.png" alt=""></li>
+        
+        <!--
+            
+        <img src="imagens/star_wars_logo.png" alt="" id="logobig">
+
+        <i id="burger" class="material-icons" onclick="clickMenu()">menu</i>
+
+        -->
+
+        <ul id="itens" class="container" >
+            <li id="logo"><img src="imagens/star_wars_logo.png" alt=""></li>
             <li><a href="index.html" id="selected">home</a></li>
             <li><a href="personagens.html">personagens</a></li>
             <li><a href="planetas.html">planetas</a></li>
@@ -28,6 +40,16 @@
         <video src="imagens/aberturaok.mp4" autoplay muted repeat></video>
         
     </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block'){
+                itens.style.display = 'none'
+            }else {
+                itens.style.display = 'block'
+            }
+
+        }
+    </script>
     
     
 </body>
